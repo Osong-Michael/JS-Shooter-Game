@@ -1,0 +1,19 @@
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #bdb4b3;
+}
+
+input {
+  background-color: white;
+  position: absolute;
+  width: 250px;
+  top: 240px;
+  right: 40%;
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 5px;
+}
