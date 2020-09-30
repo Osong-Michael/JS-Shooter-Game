@@ -1,4 +1,4 @@
-import "@babel/polyfill";
+import '@babel/polyfill';
 import * as ScoreLogic from '../src/helpers/scoreLogic';
 
 global.fetch = require('jest-fetch-mock');

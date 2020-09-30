@@ -21,7 +21,6 @@ export default class GameOver extends Phaser.Scene {
 
 
   create() {
-
     this.add.image(260, 400, 'GOendBG');
 
     this.addText(200, 'GAME OVER', 45);

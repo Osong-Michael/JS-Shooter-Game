@@ -2,7 +2,7 @@ import Phaser from '../phaser';
 import { getGameScores } from '../helpers/scoreLogic';
 import Background from '../../assets/images/baseBg.png';
 import buttonUp from '../../assets/images/buttonUp.png';
-import backBtn from '../../assets/images/return.png'
+import backBtn from '../../assets/images/return.png';
 
 export default class Score extends Phaser.Scene {
   constructor() {
@@ -16,7 +16,6 @@ export default class Score extends Phaser.Scene {
   }
 
   create() {
-
     this.add.image(260, 440, 'endBG');
 
     this.add.text(
@@ -32,12 +31,12 @@ export default class Score extends Phaser.Scene {
     this.returnButton = this.add.sprite(
       this.game.config.width * 0.5,
       this.game.config.height * 0.9,
-      "returnBtn",
+      'returnBtn',
     );
-    
+
     this.returnButton.setInteractive();
-    
-    this.returnButton.on("pointerdown", () => {
+
+    this.returnButton.on('pointerdown', () => {
       this.scene.start('StartScreen');
     }, this);
 
