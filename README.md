@@ -21,7 +21,7 @@
     <a href="https://github.com/OA7/JS-Shooter-Game"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://oa7.github.io/JS-Shooter-Game/">Play Game</a>
+    <a href="https://eager-payne-eb4940.netlify.app/">Play Game</a>
     ·
     <a href="https://github.com/OA7/JS-Shooter-Game/issues">Report Bug</a>
     ·
