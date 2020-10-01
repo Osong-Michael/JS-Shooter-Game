@@ -89,6 +89,7 @@ export default class MainScene extends Phaser.Scene {
       this.game.config.width * 0.5,
       this.game.config.height - 54,
     );
+    this.player.body.collideWorldBounds = true;
 
     this.keyA = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.A);
     this.keyD = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.D);
