@@ -148,6 +148,10 @@ export default class MainScene extends Phaser.Scene {
         this.createExplosion(enemy.x, enemy.y);
         this.addScore(10);
         enemy.destroy();
+      } else {
+        this.scene.start('GameOver', {
+          gameScore: this.passingData.score,
+        });
       }
     }, null, this);
 
