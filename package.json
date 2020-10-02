@@ -5,16 +5,21 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "server": "webpack-dev-server"
+    "server": "webpack-dev-server",
+    "build": "webpack"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/preset-env": "^7.11.5",
+    "babel-eslint": "^10.1.0",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-import": "^2.20.2",
+    "file-loader": "^6.1.0",
     "jest": "^26.4.2",
+    "jest-fetch-mock": "^3.0.3",
     "stylelint": "^13.3.3",
     "stylelint-config-standard": "^20.0.0",
     "stylelint-csstree-validator": "^1.8.0",
@@ -22,5 +27,8 @@
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.11.5"
   }
 }
